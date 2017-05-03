@@ -1,0 +1,22 @@
+{
+  "name": "headless",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --inspect=9222 app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomasyxy/Headless.git"
+  },
+  "devDependencies": {
+    "chrome-remote-interface": "^0.22.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomasyxy/Headless/issues"
+  },
+  "homepage": "https://github.com/thomasyxy/Headless#readme"
+}
