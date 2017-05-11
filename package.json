@@ -4,6 +4,7 @@
   "main": "app.js",
   "scripts": {
     "shot": "node ./src/screenshot/index.js",
+    "light": "node ./src/lighthouse/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/thomasyxy/Headless/issues"
   },
-  "homepage": "https://github.com/thomasyxy/Headless#readme"
+  "homepage": "https://github.com/thomasyxy/Headless#readme",
+  "dependencies": {
+    "lighthouse": "^1.6.5"
+  }
 }
