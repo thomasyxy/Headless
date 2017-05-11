@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "shot": "node ./src/screenshot/index.js",
-    "light": "node ./src/lighthouse/index.js",
+    "shot": "node ./example/screenshot/index.js",
+    "light": "node ./example/lighthouse/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
