@@ -6,7 +6,7 @@ function launchHeadlessChrome(url, callback) {
   exec(`${CHROME} --headless --disable-gpu --screenshot ${url}`, callback);
 }
 
-launchHeadlessChrome('https://www.chromestatus.com', (err, stdout, stderr) => {
+launchHeadlessChrome('https://www.taobao.com', (err, stdout, stderr) => {
   if(err) {
     console.error(err);
     return false;
