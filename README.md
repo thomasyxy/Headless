@@ -9,4 +9,4 @@ npm install
 npm run shot
 
 ### 使用lighthouse打开网站并输出源码
-npm run shot
+npm run light
